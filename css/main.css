@@ -1,0 +1,77 @@
+/* Global */
+* {
+	margin: 0;
+	/* border: 0; */
+	padding: 0;
+}
+
+body{
+	font-size: 14px;
+}
+
+object{
+	display:none;
+}
+
+.white{
+	background: #fff;
+	background-color: #FFF;
+}
+
+/* Home */
+
+.altura-top{
+	position: relative;
+	height: 64px;
+	width: 100%;
+}
+
+[scroll] {
+  position:fixed;
+  top:0;
+}
+
+.md-sidenav-backdrop {
+  position:fixed;
+  top:0;
+}
+
+
+/* CSS3 Animation Example :D */
+
+/*
+.home_flutuando{
+	position: fixed;
+	bottom: 25px;
+	left:50%;
+	margin-left: -28px;
+	width: 56px !important;
+	height: 56px !important;
+	font-size: 24px;
+	line-height: 46px;
+
+	-webkit-animation-name: botaoPulsanteFloats; 
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite; 
+
+    animation-name: botaoPulsanteFloats;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}*/
+/* Chrome, Safari, Opera */
+/*@-webkit-keyframes botaoPulsanteFloats {
+    0%   { 	bottom: 30px; margin-left: -28px; width: 56px !important; height: 56px !important; }
+
+    50%  { 	bottom: 45px; margin-left: -42px; width: 84px !important; height: 84px !important; }
+
+    100% { 	bottom: 30px; margin-left: -28px; width: 56px !important; height: 56px !important; }
+}*/
+/* Standard syntax */
+/*@keyframes botaoPulsanteFloats {
+    0%   { 	bottom: 30px; margin-left: -28px; width: 56px !important; height: 56px !important; }
+
+    50%  { 	bottom: 45px; margin-left: -42px; width: 84px !important; height: 84px !important; }
+
+    100% { 	bottom: 30px; margin-left: -28px; width: 56px !important; height: 56px !important; }
+}*/
+

@@ -1,0 +1,55 @@
+
+
+
+<!-- -->
+
+
+<md-sidenav scroll class="md-sidenav-left md-whiteframe-z3" md-component-id="left" >
+
+ <!-- <md-toolbar class="md-accent hue-1 md-whiteframe-z1 text-center" style="background:#f6f6f6;">
+    <img src="images/pitch_logo.png" width="141" class="menu-logos" ng-click="toggleLeft();" > 
+    LOGO ON LATERAL MENU?
+  </md-toolbar>-->
+
+  <md-content class="texto-menu" layout-padding="" ng-controller="LeftCtrl">  
+
+
+    <p>
+      <md-button class="md-warn" ng-click="close();changeView('');">
+        <span class="glyphicon glyphicon-off"></span> GO OUT
+      </md-button>
+    </p>
+  </md-content>
+</md-sidenav>
+<!-- End sideMenu -->
+
+<!-- Begin Header -->
+<md-toolbar scroll class="md-accent hue-1 md-whiteframe-z1" style="background:#f6f6f6;">
+    <h2 class="md-toolbar-tools">
+      <span flex class="text-center">
+        <md-button class="md-icon-button md-primary" style="float:left;" aria-label="refresh" ng-click="toggleLeft();">
+          <span class="glyphicon glyphicon-menu-hamburger home-icon-topbar"></span>
+        </md-button>
+        Generic Angular App
+      </span>
+    </h2>
+</md-toolbar>
+<div class="altura-top"></div>
+<!-- End Header -->
+
+<md-content class="container">
+  <md-tabs md-dynamic-height md-border-bottom>
+    <md-tab label="Newest">
+      <md-content class="md-padding">
+          NEWEST
+      </md-content>
+    </md-tab>
+    <md-tab label="Popular Pitches">
+      <md-content class="md-padding">
+      POPULAR
+      </md-content>
+    </md-tab>
+  </md-tabs>
+</md-content>
+
+
